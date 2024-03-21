@@ -3,7 +3,7 @@
     position: relative;
     height: 140vw;
     width: 100vw;
-    background-image: url('../../public/couple.jpg');
+    background-image: url('../../public/images/couple.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -58,11 +58,11 @@
 
 .church
 {
-    background-image: url('../../public/church.jpg');
+    background-image: url('../../public/images/church.jpg');
 }
 
 .tavern{
-    background-image: url('../../public/tavern.jpg');
+    background-image: url('../../public/images/tavern.jpg');
 }
 
 .my-card-photo
@@ -175,7 +175,7 @@
         position: relative;
         height: 75vh;
         width: 100vw;
-        background-image: url('../../public/xl.jpg');
+        background-image: url('../../public/images/xl.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

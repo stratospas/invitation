@@ -101,7 +101,7 @@ export default function Invitation()
 				<Container className="my-5">
 					<Row className="justify-content-center opacity-50">
 						<Col lg={3}>
-							<Image src="rings2.jpg" fluid/>	
+							<Image src="images/rings2.jpg" fluid/>	
 						</Col>
 					</Row>
 				</Container>
@@ -114,7 +114,7 @@ export default function Invitation()
 				<Container className="my-5">
 					<Row className="justify-content-center opacity-50">
 						<Col xs={8} lg={3}>
-							<Image src="glasses2.jpeg" roundedCircle fluid/>	
+							<Image src="images/glasses2.jpeg" roundedCircle fluid/>	
 						</Col>
 					</Row>
 				</Container>
@@ -128,22 +128,6 @@ export default function Invitation()
     );
 }
 
-
-/*
-        <div className="whisper-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="great-vibes-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="mynerve-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="zen-old-mincho-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="zen-kurenaido-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="zen-antique-soft-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="zen-antique-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="sacramento-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="parisienne-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="moon-dance-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="mansalva-regular"> Θοδορής & Χρυσή Tester</div>
-		<div className="eb-garamond-600"> Θοδορής & Χρυσή Tester</div>
-		<div className="dancing-script-700"> Θοδορής & Χρυσή Tester</div>
-*/
 
 const Intro = () =>
 {
