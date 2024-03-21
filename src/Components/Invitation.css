@@ -1,0 +1,247 @@
+.photo
+{
+    position: relative;
+    height: 140vw;
+    width: 100vw;
+    background-image: url('../../public/couple.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin-top: 5px;
+}
+
+.timer
+{
+    position: absolute;
+    bottom: 2.7em;
+}
+
+.dateText
+{
+    color: white;
+    text-align: center;
+    font-family: 'Zen Kurenaido','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.names
+{
+    color:white;
+    text-align: center;
+    padding-top: 0;
+}
+
+.main-text
+{
+    font-style: italic;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.my-card
+{
+    width:80vw;
+    border-radius: 5%;
+    border: 1px solid gray;
+    font-size: small;
+}
+
+.border1
+{
+    border: 1px solid red;
+}
+
+.h25
+{
+    height: 25vh;
+}
+
+.church
+{
+    background-image: url('../../public/church.jpg');
+}
+
+.tavern{
+    background-image: url('../../public/tavern.jpg');
+}
+
+.my-card-photo
+{
+    position: relative;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+}
+
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.mynerve-regular {
+    font-family: "Mynerve", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+  
+.zen-old-mincho-regular {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+  
+.zen-kurenaido-regular {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.zen-antique-soft-regular {
+    font-family: "Zen Antique Soft", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.zen-antique-regular {
+    font-family: "Zen Antique", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 5em;
+}
+
+.moon-dance-regular {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+  
+.mansalva-regular {
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+  
+
+.eb-garamond-600 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 3em;
+}
+
+
+.dancing-script-700 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 2em;
+}
+
+@media screen and (min-width: 992px) {
+    .photo
+    {
+        position: relative;
+        height: 75vh;
+        width: 100vw;
+        background-image: url('../../public/xl.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow-x: hidden;
+        margin-top: 0;
+    }
+
+    .timer
+    {
+        bottom: 1em;
+        margin-left: 31.5vw;
+    }
+
+    .main-text
+    {
+        font-style: italic;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+
+    .my-card
+    {
+        width:35vw !important;
+    }
+
+
+    
+    .before-load
+    {
+        font-size: 2vw;
+    }
+
+    
+}
+
+
+.fade-in
+{
+    opacity: 1;
+    animation: fadeIn 3s;
+}
+
+.fade-out
+{
+    opacity: 0;
+    animation: fadeOut 3s;
+}
+
+.before-load
+{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
